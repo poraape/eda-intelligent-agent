@@ -16,8 +16,8 @@ analysis:
 
 # Configurações do LLM (Gemini)
 llm:
-  # Modelo a ser usado. 'gemini-1.5-flash' é rápido e econômico.
-  model_name: "gemini-1.5-flash"
+  # Modelo a ser usado. 'gemini-2.5-flash' é rápido e econômico.
+  model_name: "gemini-2.5-flash"
   # Parâmetros de geração
   temperature: 0.0
   max_output_tokens: 2048
