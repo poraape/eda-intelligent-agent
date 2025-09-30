@@ -1,13 +1,12 @@
 ---
-title: {{title}}
-emoji: {{emoji}}
-colorFrom: {{colorFrom}}
-colorTo: {{colorTo}}
-sdk: {{sdk}}
-sdk_version: "{{sdkVersion}}"
-app_file: app.py
+title: "Agente EDA com Gemini"
+emoji: "🚀"
+colorFrom: "blue"
+colorTo: "purple"
+sdk: "docker"
 pinned: false
 ---
+
 # ARCHITECT-X: Agente EDA com Gemini
 
 Este projeto implementa um sistema de Análise Exploratória de Dados (EDA) inteligente, potencializado pela API Google Gemini. Ele funciona como um copiloto de análise, permitindo o upload de arquivos CSV (ou ZIP) e transformando perguntas em linguagem natural em código Python executável para gerar insights, tabelas e visualizações.
