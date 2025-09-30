@@ -1,0 +1,14 @@
+# requirements.txt
+# Lista de dependências do projeto.
+
+streamlit==1.35.0
+pandas==2.2.2
+scikit-learn==1.4.2
+plotly==5.20.0
+structlog==24.1.0
+pyyaml==6.0.1
+google-generativeai==0.5.4
+python-dotenv==1.0.1
+
+# Dependências de desenvolvimento
+pytest==8.1.1

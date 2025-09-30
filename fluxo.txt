@@ -1,0 +1,20 @@
+eda-intelligent-agent/
+├── .github/
+│   └── workflows/
+│       └── ci.yml              # GitHub Actions para testes automáticos
+├── src/
+│   ├── agent.py                # Lógica central do agente (EDAAgentPro)
+│   ├── config.py               # Carregador de configurações
+│   └── utils.py                # Funções utilitárias (ex: manipulação de ZIP)
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py             # Fixtures de teste (ex: criar CSV de teste)
+│   └── test_agent.py           # Testes unitários e de integração para o agent.py
+├── .env.example                # Exemplo de variáveis de ambiente
+├── .gitignore                  # Arquivos a serem ignorados pelo Git
+├── config.yaml                 # Configurações da aplicação (limites, etc.)
+├── Dockerfile                  # Instruções para containerizar a aplicação
+├── main_app.py                 # Ponto de entrada da interface Streamlit
+├── README.md                   # Documentação completa do projeto
+├── requirements.txt            # Dependências Python
+└── colab_demo.ipynb            # Notebook para demonstração da classe EDAAgentPro

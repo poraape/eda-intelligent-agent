@@ -1,0 +1,22 @@
+# .gitignore
+# Ignorar arquivos e pastas desnecessários no controle de versão.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Arquivos de IDE
+.vscode/
+.idea/
