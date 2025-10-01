@@ -17,8 +17,5 @@ COPY . .
 # Expõe a porta que o Streamlit usa
 EXPOSE 8501
 
-# Define uma variável de ambiente para o Streamlit
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-
 # Comando para rodar a aplicação quando o contêiner iniciar
 ENTRYPOINT ["streamlit", "run", "main_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
