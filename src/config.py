@@ -20,7 +20,7 @@ def load_config() -> dict:
             },
             "analysis": {"num_suggested_queries": 5},
             "llm": {
-                "model_name": "gemini-1.5-flash",
+                "model_name": "gemini-2.5-flash",
                 "temperature": 0.0,
                 "max_output_tokens": 2048,
             },
